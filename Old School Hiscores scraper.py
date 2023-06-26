@@ -70,5 +70,5 @@ print()
 formatting = ("-- skill = all, im, uim, hcim\nreturn {{\n\t['attack'] = {{{}, {}, {}, {}}},\n\t['defence'] = {{{}, {}, {}, {}}},\n\t['strength'] = {{{}, {}, {}, {}}},\n\t['hitpoints'] = {{{}, {}, {}, {}}},\n\t['ranged'] = {{{}, {}, {}, {}}},\n\t['prayer'] = {{{}, {}, {}, {}}},\n\t['magic'] = {{{}, {}, {}, {}}},\n\t['cooking'] = {{{}, {}, {}, {}}},\n\t['woodcutting'] = {{{}, {}, {}, {}}},\n\t['fletching'] = {{{}, {}, {}, {}}},\n\t['fishing'] = {{{}, {}, {}, {}}},\n\t['firemaking'] = {{{}, {}, {}, {}}},\n\t['crafting'] = {{{}, {}, {}, {}}},\n\t['smithing'] = {{{}, {}, {}, {}}},\n\t['mining'] = {{{}, {}, {}, {}}},\n\t['herblore'] = {{{}, {}, {}, {}}},\n\t['agility'] = {{{}, {}, {}, {}}},\n\t['thieving'] = {{{}, {}, {}, {}}},\n\t['slayer'] = {{{}, {}, {}, {}}},\n\t['farming'] = {{{}, {}, {}, {}}},\n\t['runecraft'] = {{{}, {}, {}, {}}},\n\t['hunter'] = {{{}, {}, {}, {}}},\n\t['construction'] = {{{}, {}, {}, {}}},\n\t['overall'] = {{{}, {}, {}, {}}},\n\t['update'] = '{}'\n}}")
 print('reformatted text for pasting directly into Module:200mxp/data:')
 print()
-print(formatting.format(*table.reshape((96)).tolist(), date.today().strftime('%#d %B %Y')))
+print(formatting.format(*table.reshape((96)).tolist(), date.today().strftime('%d %B %Y')))
 
